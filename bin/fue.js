@@ -40,7 +40,7 @@ program
 // };
 // console.log(program.init)
 if(program.init){
-  const spinner = ora('正在从github下载x-build').start();
+  const spinner = ora('正在从github下载fe-vue').start();
   download('jeft224/fe-vue', program.init, function (err) {
     if(!err){
       // 可以输出一些项目成功的信息
