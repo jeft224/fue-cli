@@ -1,4 +1,4 @@
-#!/usr/bin/env node // 这个文件使用node执行
+#!/usr/bin/env node 
 
 
 
@@ -38,7 +38,7 @@ program
 //   name: 'port',
 //   default: '3000'
 // };
-// console.log(program.init)
+
 if(program.init){
   const spinner = ora('正在从github下载fe-vue').start();
   download('jeft224/fe-vue', program.init, function (err) {
